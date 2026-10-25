@@ -1,0 +1,17 @@
+project layout
+────────────────
+telegram_osint_bot/
+├── main.py
+├── config.py
+├── handlers/
+│   ├── __init__.py
+│   ├── start.py
+│   ├── user_lookup.py
+│   ├── channel_lookup.py
+│   └── ip_lookup.py
+├── services/
+│   ├── __init__.py
+│   ├── telegram_api.py
+│   ├── ip_service.py
+│   └── storage.py
+└── requirements.txt
